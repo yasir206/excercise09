@@ -1,0 +1,26 @@
+{
+  "name": "exercise09",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "concurrently": "^3.4.0",
+    "lite-server": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "lite": "lite-server",
+    "tsc:w": "tsc -w",
+    "start": "concurrently \"npm run lite\" \"npm run tsc:w\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasir206/excercise09.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yasir206/excercise09/issues"
+  },
+  "homepage": "https://github.com/yasir206/excercise09#readme"
+}
